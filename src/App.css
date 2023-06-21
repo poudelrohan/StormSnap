@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Inter", sans-serif;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  font-weight: 100;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+}
+
+#mainbox {
+  width: 75dvw;
+  height: 90dvh;
+  border: 00px solid transparent;
+  border-radius: 25px;
+  color: white;
+}
+.search-container {
+  max-width: 600px;
+  margin: 0px auto;
+}
+input[type="text"] {
+  display: block;
+  width: calc(
+    100% - 24px
+  ); /*20px [ left & Right ] padding + 4px border [ left & Right ] */
+  font-size: 16px;
+  font-weight: 600;
+  color: #002652;
+  padding: 10px;
+  border: 2px solid white;
+}
+.upperbox {
+  border: none;
+  height: 30dvh;
+  width: 75dvw;
+  margin-top: 10vb;
+}
+
+#dateplacebox {
+  border: none;
+  float: left;
+
+  min-height: fit-content;
+  width: fit-content;
+  margin-left: 20dvh;
+  margin-top: 8%;
+}
+#date {
+  font-size: 25px;
+}
+#place {
+  text-transform: capitalize;
+}
+
+#iconbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-right: rgba(255, 255, 255, 0.384) 2px dashed;
+  float: left;
+  min-height: fit-content;
+  width: 30dvw;
+  margin-top: 0vb;
+  margin-left: 5%;
+  margin-right: 8%;
+  /* margin-bottom: 10%; */
+}
+#weathertext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  position: absolute;
+  /* margin-right: 0vb; */
+}
+
+#degreebox {
+  border: none;
+  height: fit-content;
+  width: fit-content;
+  margin-right: 15vb;
+  margin-top: 7%;
+  float: left;
+  /* display: flex;
+  flex-direction: column; */
+}
+#realdegree {
+  font-size: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  text-align: left;
+}
+.lowerbox {
+  border: none;
+  height: 35dvh;
+  width: 80dvw;
+  margin-top: 5vb;
+}
+#whitecard {
+  border: solid rgb(255, 255, 255) 2px;
+  background: whitesmoke;
+  color: #002652;
+  width: 60.4dvw;
+  height: 28dvh;
+  margin-top: 15vb;
+  margin-left: 16dvh;
+  /* margin-right: 15vb; */
+  border-radius: 25px;
+}
+#cardtopic {
+  min-height: fit-content;
+  width: 60dvw;
+  border: none;
+  margin-top: 1vb;
+  margin-left: 5vb;
+  margin-bottom: 10px;
+}
+.sevenicons {
+  width: 70dvw;
+  height: 30dvh;
+  margin-left: 0vb;
+  border: none;
+}
+
+.oneicon {
+  width: 8.5dvw;
+  height: 18dvh;
+  margin-top: 1vb;
+  border: none;
+  border-right: rgb(230, 227, 227) 2px dotted;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  float: left;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#lastbox {
+  border: transparent 0 none;
 }
