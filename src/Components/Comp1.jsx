@@ -21,7 +21,7 @@ function Comp1() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState("");
   const [error, setError] = useState("");
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=210e02f0e9374a7eb5641728232206&q=${location}&days=7&aqi=no&alerts=no`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=210e02f0e9374a7eb5641728232206&q=${location}&days=7&aqi=no&alerts=no`;
   const handleSearch = async (e) => {
     if (e.key === "Enter") {
       e.preventDefault();
