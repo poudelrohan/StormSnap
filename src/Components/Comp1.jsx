@@ -17,11 +17,13 @@ import {
 } from "../Icons/Icons";
 import Inputt from "./Input";
 
+const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
+
 function Comp1() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState("");
   const [error, setError] = useState("");
-  const url = `https://api.weatherapi.com/v1/forecast.json?key=210e02f0e9374a7eb5641728232206&q=${location}&days=7&aqi=no&alerts=no`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=7&aqi=no&alerts=no`;
   const handleSearch = async (e) => {
     if (e.key === "Enter") {
       e.preventDefault();
@@ -152,7 +154,7 @@ function Comp1() {
     content = (
       <div id="welcome">
         <h2> Weather App</h2>
-        <p display>Search any City in the box above</p>
+        <p>Search any City in the box above</p>
         <h5 style={{ position: "fixed", bottom: 0, right: 0, color: "black" }}>
           Made By Rohan
         </h5>
