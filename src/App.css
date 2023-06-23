@@ -18,13 +18,72 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%); */
+  /* background-color: #9dc5c3;
+  background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%); */
+  /* background-color: #a40606;
+  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%); */
+}
+
+.sunnygrade {
+  width: 203.5vh;
+  height: 105vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+}
+.cloudygrade {
+  width: 203.5vh;
+  height: 105vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9dc5c3;
+  background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+}
+
+.foggygrade {
+  width: 203.5vh;
+  height: 105vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #a40606;
+  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+  background-color: #acabb0;
+  background-image: linear-gradient(315deg, #acabb0 0%, #e01c34 74%); */
+  background-color: #de4256;
+  background-image: linear-gradient(315deg, #de4256 0%, #b78e51 74%);
+}
+#welcome {
+  width: 75dvw;
+  height: 90dvh;
+  z-index: 9999;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+  flex-direction: column;
+}
+#errormessage {
+  width: 75dvw;
+  height: 90dvh;
+  z-index: 9999;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+  flex-direction: column;
 }
 
 #mainbox {
   width: 75dvw;
   height: 90dvh;
   border: 00px solid transparent;
+  /* border: 1px solid black; */
   border-radius: 25px;
   color: white;
 }
@@ -48,6 +107,7 @@ input[type="text"] {
   height: 30dvh;
   width: 75dvw;
   margin-top: 10vb;
+  position: relative;
 }
 
 #dateplacebox {
@@ -56,8 +116,9 @@ input[type="text"] {
 
   min-height: fit-content;
   width: fit-content;
-  margin-left: 20dvh;
+  margin-left: 10dvh;
   margin-top: 8%;
+  position: relative;
 }
 #date {
   font-size: 25px;
@@ -77,14 +138,15 @@ input[type="text"] {
   width: 30dvw;
   margin-top: 0vb;
   margin-left: 5%;
-  margin-right: 8%;
+  margin-right: 5%;
   /* margin-bottom: 10%; */
+  position: relative;
 }
 #weathertext {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 25dvh;
   position: absolute;
   /* margin-right: 0vb; */
 }
@@ -93,9 +155,11 @@ input[type="text"] {
   border: none;
   height: fit-content;
   width: fit-content;
-  margin-right: 15vb;
+  margin-right: 10vb;
   margin-top: 7%;
   float: left;
+  margin-left: 10vb;
+  position: relative;
   /* display: flex;
   flex-direction: column; */
 }
@@ -117,17 +181,21 @@ h6 {
   height: 35dvh;
   width: 80dvw;
   margin-top: 5vb;
+  position: relative;
 }
 #whitecard {
   border: solid rgb(255, 255, 255) 2px;
   background: whitesmoke;
   color: #002652;
   width: 60.4dvw;
-  height: 28dvh;
+  height: 30vh;
   margin-top: 15vb;
-  margin-left: 16dvh;
+  margin-left: 10dvh;
   /* margin-right: 15vb; */
   border-radius: 25px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 10%;
 }
 #cardtopic {
   min-height: fit-content;
@@ -136,6 +204,7 @@ h6 {
   margin-top: 1vb;
   margin-left: 5vb;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 .sevenicons {
   width: 70dvw;
@@ -155,6 +224,7 @@ h6 {
   justify-content: center;
   text-align: center;
   float: left;
+  font-weight: 900;
 }
 
 #lastbox {

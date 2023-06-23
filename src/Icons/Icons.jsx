@@ -14,9 +14,9 @@ const Sunny = () => (
 
 const SmallSunny = () => (
   <svg
-    height="50px"
+    height="100px"
     viewBox="0 0 57.587 57.587"
-    width="50px"
+    width="100px"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title />
@@ -41,32 +41,32 @@ const Rainy = () => (
         d="M37.208,41.516V34.454"
         fill="none"
         stroke="#83b3cb"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
       />
       <path
         d="M26.045,47.145V43.123"
         fill="none"
         stroke="#9fa6b7"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
       />
       <path
         d="M21.591,38.3V34.454"
         fill="none"
         stroke="#615c9a"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
       />
       <line
         fill="none"
         stroke="#9fa6b7"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
         x1="30.245"
         x2="30.245"
         y1="36.76"
@@ -77,9 +77,9 @@ const Rainy = () => (
 );
 const SmallRainy = () => (
   <svg
-    height="50px"
+    height="100px"
     viewBox="0 0 57.587 57.587"
-    width="50px"
+    width="100px"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title />
@@ -92,32 +92,32 @@ const SmallRainy = () => (
         d="M37.208,41.516V34.454"
         fill="none"
         stroke="#83b3cb"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
       />
       <path
         d="M26.045,47.145V43.123"
         fill="none"
         stroke="#9fa6b7"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
       />
       <path
         d="M21.591,38.3V34.454"
         fill="none"
         stroke="#615c9a"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
       />
       <line
         fill="none"
         stroke="#9fa6b7"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
         x1="30.245"
         x2="30.245"
         y1="36.76"
@@ -146,9 +146,9 @@ const Cloudy = () => (
 );
 const SmallCloudy = () => (
   <svg
-    height="50px"
+    height="100px"
     viewBox="0 0 57.587 57.587"
-    width="50px"
+    width="100px"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title />
@@ -173,9 +173,9 @@ const Snowy = () => (
       <line
         fill="none"
         stroke="#83b3cb"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3"
         x1="28.793"
         x2="28.793"
         y1="13.018"
@@ -186,25 +186,25 @@ const Snowy = () => (
           fill="none"
           points="33.946 16.502 28.793 21.655 23.641 16.502"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
         <polyline
           fill="none"
           points="23.641 41.084 28.793 35.932 33.946 41.084"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
       </g>
       <line
         fill="none"
         stroke="#83b3cb"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3"
         x1="13.018"
         x2="44.568"
         y1="28.793"
@@ -215,17 +215,17 @@ const Snowy = () => (
           fill="none"
           points="16.502 23.641 21.655 28.793 16.502 33.946"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
         <polyline
           fill="none"
           points="41.084 33.946 35.932 28.793 41.084 23.641"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
       </g>
     </g>
@@ -233,9 +233,9 @@ const Snowy = () => (
 );
 const SmallSnowy = () => (
   <svg
-    height="50px"
+    height="100px"
     viewBox="0 0 57.587 57.587"
-    width="50px"
+    width="100px"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title />
@@ -243,9 +243,9 @@ const SmallSnowy = () => (
       <line
         fill="none"
         stroke="#83b3cb"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3"
         x1="28.793"
         x2="28.793"
         y1="13.018"
@@ -256,25 +256,25 @@ const SmallSnowy = () => (
           fill="none"
           points="33.946 16.502 28.793 21.655 23.641 16.502"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
         <polyline
           fill="none"
           points="23.641 41.084 28.793 35.932 33.946 41.084"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
       </g>
       <line
         fill="none"
         stroke="#83b3cb"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3"
         x1="13.018"
         x2="44.568"
         y1="28.793"
@@ -285,17 +285,17 @@ const SmallSnowy = () => (
           fill="none"
           points="16.502 23.641 21.655 28.793 16.502 33.946"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
         <polyline
           fill="none"
           points="41.084 33.946 35.932 28.793 41.084 23.641"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3"
         />
       </g>
     </g>
@@ -320,32 +320,32 @@ const Foggy = () => (
           d="M42.1,30.7h-21"
           fill="none"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
         />
         <path
           d="M51.216,37.667H39.255"
           fill="none"
           stroke="#9fa6b7"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
         />
         <path
           d="M42.1,44.317h-21"
           fill="none"
           stroke="#615c9a"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
         />
         <line
           fill="none"
           stroke="#9fa6b7"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           x1="31.614"
           x2="24.756"
           y1="37.663"
@@ -358,9 +358,9 @@ const Foggy = () => (
 
 const SmallFoggy = () => (
   <svg
-    height="50px"
+    height="100px"
     viewBox="0 0 57.587 57.587"
-    width="50px"
+    width="100px"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title />
@@ -374,32 +374,32 @@ const SmallFoggy = () => (
           d="M42.1,30.7h-21"
           fill="none"
           stroke="#83b3cb"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
         />
         <path
           d="M51.216,37.667H39.255"
           fill="none"
           stroke="#9fa6b7"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
         />
         <path
           d="M42.1,44.317h-21"
           fill="none"
           stroke="#615c9a"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
         />
         <line
           fill="none"
           stroke="#9fa6b7"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="4"
           x1="31.614"
           x2="24.756"
           y1="37.663"
@@ -431,9 +431,9 @@ const Lightning = () => (
 );
 const SmallLightning = () => (
   <svg
-    height="50px"
+    height="100px"
     viewBox="0 0 57.587 57.587"
-    width="50px"
+    width="100px"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title />
@@ -461,32 +461,32 @@ const Stormy = () => (
       d="M33.128,15.619a3.293,3.293,0,1,1,0,6.585H12.875"
       fill="none"
       stroke="#83b3cb"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="4"
     />
     <path
       d="M41.923,19.381a4.895,4.895,0,0,1,0,9.79H30.389"
       fill="none"
       stroke="#9fa6b7"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="4"
     />
     <path
       d="M33.128,42.406a3.293,3.293,0,1,0,0-6.585H12.875"
       fill="none"
       stroke="#615c9a"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="4"
     />
     <line
       fill="none"
       stroke="#9fa6b7"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="4"
       x1="23.02"
       x2="16.406"
       y1="29.167"
@@ -496,9 +496,9 @@ const Stormy = () => (
 );
 const SmallStormy = () => (
   <svg
-    height="50px"
+    height="100px"
     viewBox="0 0 57.587 57.587"
-    width="50px"
+    width="100px"
     xmlns="http://www.w3.org/2000/svg"
   >
     <title />
@@ -506,32 +506,32 @@ const SmallStormy = () => (
       d="M33.128,15.619a3.293,3.293,0,1,1,0,6.585H12.875"
       fill="none"
       stroke="#83b3cb"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="4"
     />
     <path
       d="M41.923,19.381a4.895,4.895,0,0,1,0,9.79H30.389"
       fill="none"
       stroke="#9fa6b7"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="4"
     />
     <path
       d="M33.128,42.406a3.293,3.293,0,1,0,0-6.585H12.875"
       fill="none"
       stroke="#615c9a"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="4"
     />
     <line
       fill="none"
       stroke="#9fa6b7"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="4"
       x1="23.02"
       x2="16.406"
       y1="29.167"
