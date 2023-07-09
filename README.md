@@ -10,6 +10,8 @@ The application is built using HTML, CSS, JavaScript,and React. It utilizes the 
 
 - **Weather Icons**: The weather conditions are represented using descriptive icons that visually indicate the current weather status.
 
+-  **Background Changes**: The Weather App includes dynamic background changes based on the current weather conditions. These gradient changes provide a visually appealing background that reflects the weather atmosphere.
+
 ## Deployment
 
 The Weather App is deployed using GitHub Pages and can be accessed [here](https://poudelrohan.github.io/weather-app/).
@@ -43,7 +45,13 @@ To use the Weather App locally or contribute to its development, follow these st
 ## Usage
 - **Searching a Place**: Enter the name of a city in the search input field and  press Enter to retrieve the weather data for the specified location.
 
+  
+![search](https://github.com/poudelrohan/weather-app/assets/115334248/e76ad471-0767-4df8-b0bb-e6a43fea25cc)
+
 - **Displaying Weather**: The app will display the current temperature, weather conditions, and forecast of the next 7 days for the searched location.
+
+  
+![display](https://github.com/poudelrohan/weather-app/assets/115334248/c48e7b38-9c6d-40e3-bf87-b170c68b07af)
 
 
 ## Acknowledgements
