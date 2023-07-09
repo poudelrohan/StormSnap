@@ -236,10 +236,7 @@ function Comp1() {
                     </div>
                   ) : null}
                 </div>
-                <div className="noo">
-                  {codeToSmallSvg(currentWeatherCode)}
-                  {/* <SmallSunny /> */}
-                </div>
+                <div className="noo">{codeToSmallSvg(currentWeatherCode)}</div>
                 <div>
                   {data.forecast ? (
                     <div>
@@ -257,10 +254,7 @@ function Comp1() {
                     </div>
                   ) : null}
                 </div>
-                <div>
-                  {codeToSmallSvg(oneWeatherCode)}
-                  {/* <SmallRainy /> */}
-                </div>
+                <div>{codeToSmallSvg(oneWeatherCode)}</div>
                 <div>
                   {data.forecast ? (
                     <div>
@@ -278,10 +272,7 @@ function Comp1() {
                     </div>
                   ) : null}
                 </div>
-                <div className="noo">
-                  {codeToSmallSvg(twoWeatherCode)}
-                  {/* <SmallSnowy /> */}
-                </div>
+                <div className="noo">{codeToSmallSvg(twoWeatherCode)}</div>
                 <div>
                   {data.forecast ? (
                     <div>
@@ -299,10 +290,7 @@ function Comp1() {
                     </div>
                   ) : null}
                 </div>
-                <div className="noo">
-                  {codeToSmallSvg(threeWeatherCode)}
-                  {/* <SmallStormy /> */}
-                </div>
+                <div className="noo">{codeToSmallSvg(threeWeatherCode)}</div>
                 <div>
                   {data.forecast ? (
                     <div>
@@ -321,10 +309,7 @@ function Comp1() {
                     </div>
                   ) : null}
                 </div>
-                <div className="noo">
-                  {codeToSmallSvg(fourWeatherCode)}
-                  {/* <SmallCloudy /> */}
-                </div>
+                <div className="noo">{codeToSmallSvg(fourWeatherCode)}</div>
                 <div>
                   {data.forecast ? (
                     <div>
@@ -342,10 +327,7 @@ function Comp1() {
                     </div>
                   ) : null}
                 </div>
-                <div className="noo">
-                  {codeToSmallSvg(fiveWeatherCode)}
-                  {/* <SmallFoggy /> */}
-                </div>
+                <div className="noo">{codeToSmallSvg(fiveWeatherCode)}</div>
                 <div>
                   {data.forecast ? (
                     <div>
@@ -363,10 +345,7 @@ function Comp1() {
                     </div>
                   ) : null}
                 </div>
-                <div id="lastbox">
-                  {codeToSmallSvg(sixWeatherCode)}
-                  {/* <SmallLightning /> */}
-                </div>
+                <div id="lastbox">{codeToSmallSvg(sixWeatherCode)}</div>
                 <div>
                   {data.forecast ? (
                     <div>
