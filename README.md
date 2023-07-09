@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple weather application that provides current weather information for a given location. It allows users to search for a specific location and view the current temperature, weather conditions, forecast for the next 7 days, and other relevant data.
 
-## Available Scripts
+The application is built using HTML, CSS, JavaScript,and React. It utilizes the API from www.weatherapi.com to retrieve weather data based on the user's search query. The retrieved data is then displayed on the user interface in a clear and user-friendly manner.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Search**: Users can search for a specific location by entering the city name. The application will retrieve and display the current weather information for that location.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Weather Icons**: The weather conditions are represented using descriptive icons that visually indicate the current weather status.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+The Weather App is deployed using GitHub Pages and can be accessed [here](https://poudelrohan.github.io/weather-app/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If the above link shows a blank white screen it means that the API has expired.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To use the Weather App locally or contribute to its development, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```shell
+   git clone https://github.com/poudelrohan/weather-app.git
+   ```
 
-### `npm run eject`
+2. Navigate to the project directory:
+   ```shell
+   cd weather-app
+   ```
+3. Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```shell
+     npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Runs the app in the development mode by typing the following code in the terminal.
+   ```shell
+   npm start
+   ```
+## Usage
+- **Searching a Place**: Enter the name of a city in the search input field and  press Enter to retrieve the weather data for the specified location.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Displaying Weather**: The app will display the current temperature, weather conditions, and forecast of the next 7 days for the searched location.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Acknowledgements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The Weather App was developed by Rohan Poudel as a personal project. Special thanks to the following resources used in this project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Weather API](https://www.weatherapi.com/)
+- [IconFinder](https://www.iconfinder.com/)
+- [Dribbble](https://dribbble.com/shots/14271679-React-Weather-App)
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are always welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/poudelrohan/weather-app/issues).
 
-### Analyzing the Bundle Size
+If you would like to contribute to the project, feel free to fork the repository and submit a pull request with your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the [MIT License](https://github.com/poudelrohan/weather-app/blob/main/LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
+If you have any questions, suggestions, or feedback, please feel free to reach out to the project owner, Rohan Poudel, via email at [ro0han252525@gmail.com](mailto:ro0han252525@gmail.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy staying organized with the To-Do List application!
