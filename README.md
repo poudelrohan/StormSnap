@@ -76,4 +76,4 @@ This project is licensed under the [MIT License](https://github.com/poudelrohan/
 
 If you have any questions, suggestions, or feedback, please feel free to reach out to the project owner, Rohan Poudel, via email at [ro0han252525@gmail.com](mailto:ro0han252525@gmail.com).
 
-Enjoy staying organized with the To-Do List application!
+Enjoy!
