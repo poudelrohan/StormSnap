@@ -16,8 +16,9 @@ import {
   SmallStormy,
 } from "../Icons/Icons";
 import Inputt from "./Input";
+import { DateTime } from "luxon";
 
-const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
+const apiKey = "210e02f0e9374a7eb5641728232206";
 
 function Comp1() {
   const [data, setData] = useState({});
@@ -141,13 +142,13 @@ function Comp1() {
   let twoWeatherCode =
     data?.forecast?.forecastday[2]?.day?.condition?.code ?? null;
   let threeWeatherCode =
-    data?.forecast?.forecastday[3]?.day?.condition?.code ?? null;
+    data?.forecast?.forecastday[0]?.day?.condition?.code ?? null;
   let fourWeatherCode =
-    data?.forecast?.forecastday[4]?.day?.condition?.code ?? null;
+    data?.forecast?.forecastday[2]?.day?.condition?.code ?? null;
   let fiveWeatherCode =
-    data?.forecast?.forecastday[5]?.day?.condition?.code ?? null;
+    data?.forecast?.forecastday[1]?.day?.condition?.code ?? null;
   let sixWeatherCode =
-    data?.forecast?.forecastday[6]?.day?.condition?.code ?? null;
+    data?.forecast?.forecastday[0]?.day?.condition?.code ?? null;
 
   let content;
   if (Object.keys(data).length === 0 && error === "") {
@@ -172,6 +173,12 @@ function Comp1() {
     content = <div></div>;
   }
 
+  const nextIthDay = (idx)=>{
+    const days = [ "MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"]
+    const today = new Date().getDay() - 1;
+    return days[(today + idx)%7];
+  }
+  
   return (
     <div className={getClassName(currentWeatherCode)}>
       <div id="mainbox">
@@ -232,7 +239,7 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {smallformatDate(data.forecast.forecastday[0].date_epoch)}
+                      {nextIthDay(0)}
                     </div>
                   ) : null}
                 </div>
@@ -250,7 +257,7 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {smallformatDate(data.forecast.forecastday[1].date_epoch)}
+                      {nextIthDay(1)}
                     </div>
                   ) : null}
                 </div>
@@ -268,7 +275,7 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {smallformatDate(data.forecast.forecastday[2].date_epoch)}
+                      {nextIthDay(2)}
                     </div>
                   ) : null}
                 </div>
@@ -286,7 +293,7 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {smallformatDate(data.forecast.forecastday[3].date_epoch)}
+                      {nextIthDay(3)}
                     </div>
                   ) : null}
                 </div>
@@ -294,8 +301,8 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {Math.ceil(data.forecast.forecastday[3].day.maxtemp_c)}°/
-                      {Math.ceil(data.forecast.forecastday[3].day.mintemp_c)}°
+                      {Math.ceil(data.forecast.forecastday[0].day.maxtemp_c)}°/
+                      {Math.ceil(data.forecast.forecastday[0].day.mintemp_c)}°
                     </div>
                   ) : null}
                 </div>
@@ -305,7 +312,7 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {smallformatDate(data.forecast.forecastday[4].date_epoch)}
+                      {nextIthDay(4)}
                     </div>
                   ) : null}
                 </div>
@@ -313,8 +320,8 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {Math.ceil(data.forecast.forecastday[4].day.maxtemp_c)}°/
-                      {Math.ceil(data.forecast.forecastday[4].day.mintemp_c)}°
+                      {Math.ceil(data.forecast.forecastday[2].day.maxtemp_c)}°/
+                      {Math.ceil(data.forecast.forecastday[2].day.mintemp_c)}°
                     </div>
                   ) : null}
                 </div>
@@ -323,7 +330,7 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {smallformatDate(data.forecast.forecastday[5].date_epoch)}
+                      {nextIthDay(5)}
                     </div>
                   ) : null}
                 </div>
@@ -331,8 +338,8 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {Math.ceil(data.forecast.forecastday[5].day.maxtemp_c)}°/
-                      {Math.ceil(data.forecast.forecastday[5].day.mintemp_c)}°
+                      {Math.ceil(data.forecast.forecastday[1].day.maxtemp_c)}°/
+                      {Math.ceil(data.forecast.forecastday[1].day.mintemp_c)}°
                     </div>
                   ) : null}
                 </div>
@@ -341,7 +348,7 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {smallformatDate(data.forecast.forecastday[6].date_epoch)}
+                      {nextIthDay(6)}
                     </div>
                   ) : null}
                 </div>
@@ -349,8 +356,8 @@ function Comp1() {
                 <div>
                   {data.forecast ? (
                     <div>
-                      {Math.ceil(data.forecast.forecastday[6].day.maxtemp_c)}°/
-                      {Math.ceil(data.forecast.forecastday[6].day.mintemp_c)}°
+                      {Math.ceil(data.forecast.forecastday[0].day.maxtemp_c)}°/
+                      {Math.ceil(data.forecast.forecastday[0].day.mintemp_c)}°
                     </div>
                   ) : null}
                 </div>

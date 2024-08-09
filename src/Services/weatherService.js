@@ -1,12 +1,12 @@
 import { DateTime } from "luxon";
 
-const API_KEY = "351ca05d926f2e14935566b162b905ec";
-const BASE_URL = "https://api.openweathermap.org/data/3.0";
+const API_KEY = "210e02f0e9374a7eb5641728232206";
+const BASE_URL = "https://api.weatherapi.com/v1";
 
 const getWeatherData = (infoType, searchParams) => {
   const url = new URL(BASE_URL + "/" + infoType);
   url.search = new URLSearchParams({ ...searchParams, appid: API_KEY });
-
+  console.log(`URL: ${JSON.stringify(url)}`);
   return fetch(url).then((res) => res.json());
 };
 
@@ -66,5 +66,4 @@ const formatToLocalTime = (secs, zone, format = "ccc,dd") =>
 const iconUrlFromCode = (code) =>
   `http://openweathermap.org/img/wn/${code}@2x.png`;
 
-export default getFormattedWeatherData;
 export { formatToLocalTime, iconUrlFromCode };

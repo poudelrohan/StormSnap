@@ -1,6 +1,6 @@
 {
-  "name": "weather-app",
-  "homepage": "https://poudelrohan.github.io/weather-app",
+  "name": "stormsnap",
+  "homepage": "https://poudelrohan.github.io/StormSnap",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
